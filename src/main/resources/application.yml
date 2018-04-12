@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.0.25/sys?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+server:
+  context-path: /sell
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  level:    #配置日志级别
+#    com.imooc.LoggerTest: debug
+#  file: /var/log/tomcat/sell/   配置日志存放的路径以及文件
+#  path: /var/log/tomcat/    //path:配置日志存放路径
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
