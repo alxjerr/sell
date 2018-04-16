@@ -15,5 +15,5 @@ public interface CategoryService {
 
     List<ProductCategory> findByCategoryTypeIn(List<Integer> categroyTypeList);
 
-    ProductCategory save(ProductCategory productCategory);
+    ProductCategory save(ProductCategory productCategory );
 }

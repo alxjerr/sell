@@ -3,11 +3,14 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 123456
-    url: jdbc:mysql://192.168.0.25/sys?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://192.168.173.138/sys?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
 server:
   context-path: /sell
+
+
+
 #logging:
 #  pattern:
 #    console: "%d - %msg%n"

@@ -29,9 +29,9 @@ public class ProductCategory {
     /** 类目编号 */
     private Integer categoryType;
 
-   /* private Date createTime;
+    private Date createTime;
 
-    private Date updateTime;*/
+    private Date updateTime;
 
     public Integer getCategoryId() {
         return categoryId;
