@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 public class OrderDetail {
 
     @Id
-    private String deatilId;
+    private String detailId;
 
     /** 订单id */
     private String orderId;
@@ -23,7 +23,7 @@ public class OrderDetail {
     private String productName;
 
     /** 商品单价 */
-    private BigDecimal prodcutPrice;
+    private BigDecimal productPrice;
 
     /** 商品数量 */
     private Integer productQuantity;
@@ -32,12 +32,12 @@ public class OrderDetail {
     private String productIcon;
 
 
-    public String getDeatilId() {
-        return deatilId;
+    public String getDetailId() {
+        return detailId;
     }
 
-    public void setDeatilId(String deatilId) {
-        this.deatilId = deatilId;
+    public void setDetailId(String detailId) {
+        this.detailId = detailId;
     }
 
     public String getOrderId() {
@@ -64,12 +64,12 @@ public class OrderDetail {
         this.productName = productName;
     }
 
-    public BigDecimal getProdcutPrice() {
-        return prodcutPrice;
+    public BigDecimal getProductPrice() {
+        return productPrice;
     }
 
-    public void setProdcutPrice(BigDecimal prodcutPrice) {
-        this.prodcutPrice = prodcutPrice;
+    public void setProductPrice(BigDecimal productPrice) {
+        this.productPrice = productPrice;
     }
 
     public Integer getProductQuantity() {
